@@ -1,0 +1,395 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*-------------------------Navgigation bar css-----------------------*/
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    border: 3px solid whitesmoke;
+    border-radius: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: rgb(243, 16, 16);
+}
+
+.rightnav {
+    /*background-color: blueviolet;*/
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 9px;
+    width: 60%;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/ban.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+/*------------x-------------Navgigation bar css-------------x----------*/
+
+
+/*-------------------------Second css-----------------------*/
+
+
+/*-------------------coures-------------*/
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+
+/*--------firstSection img----------*/
+
+.firstSection {
+    height: 70vh;
+}
+
+.firsthalf {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*--------secondhalf img----------*/
+
+.secondhalf {
+    width: 30%;
+}
+
+
+/*--------secondhalf img----------*/
+
+.secondhalf img {
+    width: 70%;
+    border: 4px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+/*----x----secondhalf img------x----*/
+
+
+/*------------x-------------Second part css-------------x----------*/
+
+.text-big {
+    font-size: 40px;
+    color: rgb(247, 223, 5);
+}
+
+.text-big a {
+    text-decoration: none;
+}
+
+.text-big a:hover {
+    text-decoration: none;
+    color: rgb(8, 44, 245);
+}
+
+.text-small {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border-radius: 10px;
+    border: 2px solid rgb(243, 239, 239);
+    justify-content: center;
+    background: none;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.btn-sm {
+    vertical-align: middle;
+    padding: 7px 10px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 65px;
+}
+
+.sectionTag {
+    padding: 12px 0px;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 250px;
+}
+
+
+/*-------------------coures-------------*/
+
+.contact {
+    background-color: #efece8;
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+    max-width: 50%;
+    margin: 24px auto;
+}
+
+.form-input {
+    width: 100% !important;
+    font-size: 20px !important;
+    border: 2px solid gray !important;
+    border-radius: 6px !important;
+    margin: 10px 0 !important;
+    padding: 3px 3px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid grey;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Add a background color when the inputs get focus */
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    padding: 12px 20px;
+    background-color: #f44336;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+}
+
+
+/* Add padding to container elements */
+
+.container {
+    padding: 23px;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background: none;
+    padding-top: 40px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* Style the horizontal ruler */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-footer {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    height: 
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
